@@ -1,0 +1,61 @@
+/* tag based */
+
+/* h1{
+    background-color: red;
+}
+
+h2{
+    background-color: blue;
+} */
+
+/* id based */
+
+/* id is selected like this  */
+/* #first {
+    background-color: blue;
+}
+#second{
+    background-color: bisque;
+} */
+
+/* 
+class is selected like this 
+.third{
+    background-color: cadetblue;
+} */
+
+/* group based selection */
+
+/* h1, .third{ */
+    /* background-color: rgba(21, 195, 195, 0.869); */
+/* } */
+/* can give colour in both rgb and hsl format or hexdecimal form*/
+/* h2{ */
+    /* background-color: hsl(hue, saturation, lightness); */
+    /* background-color:  hsl(101,30%,40%); */
+/* } */
+
+/* rgb takes up  */
+/* 8,8,8 = 24 bits of memory */
+/* alpha is the fourth number gives us transparency */
+
+/* fonts */
+
+h1{
+    font: bolder;
+    font-size: 200%;
+}
+/* em means no of times its parent element  
+rem means root element
+vw means visible width
+vh means visible height
+if we only give % then it will be default of parent 
+font family changes the font style
+font weight gives boldness
+*/
+ul{
+    font-size: 2em;
+}
+li{
+    font-size: 1em;
+}
