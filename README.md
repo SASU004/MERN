@@ -1,4 +1,2 @@
-# MERN
-
-i have used random lines and random day to day slangs in some places cause i am just learning web dev and eventually MERN stack just out of curiosity 
-please ignore them 
+<h1>MERN</h1>
+Some files or comments may contain casual notes or random experimental lines — they reflect my process of learning and experimenting with ideas.
