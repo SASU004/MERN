@@ -1,0 +1,62 @@
+h1{
+    background-color: aquamarine;
+    height: 50px;
+    width: 400px;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: blue; */
+
+    border: 10px solid green;
+/* can write this is any order  */
+/* border only bttom top etc func are there */
+
+    
+    padding: 20px;
+    /* padding : 20px 40px; */
+    /* this is for 20 for top bottom and 40 for left right  */
+    /* padding: top right bottom left can also be used */
+    margin: 30;
+    /* same things of padding can be uised in margin */
+    /* margin gives spacing to all sides of the block; */
+
+    /* to make the block element ie h1 inline we use  */
+    /* display: inline; 
+    and inline can be done block vice versa 
+    can make both as well inline-block*/
+/* 
+    box-sizing: border-box;
+    when we use box sizing border box then instead of only content box 
+    whole element get the sizing  */
+}
+
+p{
+     background-color: aquamarine;
+    height: 50px;
+    width: 400px;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: blue; */
+
+    border: 10px solid blue;
+/* can write this is any order  */
+    
+    padding: 10px;
+    margin: 200;
+    border-radius: 30px;
+
+}
+/* span doesnt allow ht and width */
+/* padding and margin only gets applied horizontally 
+when we apply it vbertically it wont move but just 
+show a visually a portion expanded rather moving*/
+span{
+    color: red;
+}
+
+/* universal seletor  */
+*{
+   margin:0px;
+   /* applies to all  */
+}
