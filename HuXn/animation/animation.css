@@ -1,0 +1,80 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:not(animation){
+    background-color: cyan;
+    width:200px;
+    height: 200px;  
+    /* transform: translateY(100px);
+    transform: translatex(100px);*/
+    /* transform: translate(200px,300px); */
+   
+    /* transform: scale(1.5); */
+    /* transform: scale(2,2); */
+    /* transform: rotate(40deg); */
+    /* transform: skew(20deg); */
+    /* transform: skew(-30deg); */
+
+
+
+}
+a:hover{
+    text-decoration: none;
+    border: 2px solid black;
+    padding:10px 20px;
+    color: rgb(6, 245, 6);
+    background-color: rgb(133, 133, 201);
+
+    /* TRANSITION */
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+}
+.animation{
+    background: black;
+    width: 300px;
+    height: 300px;
+    animation-duration: 2s;
+   animation-name: in;
+   animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+   /* can also be infinite */
+
+
+}
+
+ /* we work on keyframes */
+    @keyframes in {
+        0%{
+            transform: scale(1.5);
+        }
+        25%{
+            transform: skew(10deg);
+            background-color: yellow;
+
+        }
+        50%{
+            transform: rotate(40deg);
+            background-color: green;
+        }
+       75%{
+            transform: translateY(100px);
+            background-color: blue;
+        }
+        100%{
+            transform: translateY(0px);
+            background-color: black;
+        }
+    }
+
+
+    /* makes the website responsive */
+
+    @media screen and (max-width:700px) {
+        body{
+            background-color:purple;
+        }
+    }
