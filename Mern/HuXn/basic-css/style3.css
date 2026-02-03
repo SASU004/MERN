@@ -1,0 +1,38 @@
+.container{
+    background: grey;
+    width: 90%;
+    height: 400px;
+
+}
+
+.d{
+    width: 100px;
+    height: 100px;
+}
+
+.one{
+    background: red;
+    position: relative;
+    left: 100px;
+}
+
+.two{
+    background: green;
+    position: absolute;
+   
+   
+}
+.three{
+    background: blue;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}
+
+/* note 
+
+position relative wont leave space 
+position absolute does leave space 
+position fixed scrolls with the window 
+position stciky scolls only untill the container 
+*/
