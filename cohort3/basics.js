@@ -72,3 +72,35 @@ function eve(nums) {
 let nums=[1,2,3,4,5,6,7,8,9,];
 let r=eve(nums);
 console.log(r);
+
+
+// Write a function that takes an array of users as inputs and 
+// returns only the users who are more than 18 years old
+
+
+function adult(users) {
+  return users.filter(({ age }) => age > 18);
+}
+
+const users = [
+  { name: "Harkirat", age: 21 },
+  { name: "raman", age: 22 }
+];
+
+console.log(adult(users));
+
+
+// Create a function that takes an array of objects as input,
+// and returns the users whose age > 18 and are male
+
+function adult(users) {
+  return users.filter(user=>user.age > 18 && user.gender=="male");
+  
+}
+
+const users = [
+  { name: "Harkirat",gender:"male",age: 21 },
+  { name: "raman", gender:"female",age: 22 }
+];
+
+console.log(adult(users));
