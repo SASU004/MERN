@@ -28,3 +28,26 @@ const data = fs.readFileSync('a.txt','utf8');
 console.log(data);
 const data2 = fs.readFileSync('b.txt','utf8');
 console.log(data2);
+
+
+// async portions
+
+fucntion print(err,data) {
+   console.log(data);
+}
+
+fs.readFile("a.txt","utf-8",print);
+fs.readFile("b.txt","utf-8",print);
+
+
+console.log("done");
+
+
+function run() {
+	console.log("I will run after 1s");
+}
+
+setTimeout(run, 1000);
+console.log("I will run immedietely");
+
+
